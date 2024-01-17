@@ -101,3 +101,21 @@ _.uniq(elements) //  [1,2,3,4,5]
 [...new Set(elements)] //  [1,2,3,4,5]
 
 ```
+
+
+오늘부터 열심히 공부해 보도록 하겠다. 
+
+
+## 막혔던 부분 
+
+#### 1. _.difference , _.differenceBy , _.differenceWith
+_.difference 는 첫번째 배열과 두번째 배열에서 다른 요소를 반환한다. (유일한?)
+
+_.differenceBy 는 비교할때,3번째 인자로 받은 함수대로 배열들을 변환한뒤에 비교하여, 다른 요소를 반환한다.
+
+_.differenceWith 는 첫번째 배열과 두번째 배열을 비교할때 3번째 인자의 함수로 받은 방법대로 이 둘을 비교한다. 
+
+즉 _.differenceBy, _.differenceWith 는 각각 3번째 인자 함수로 변환하여 비교하거나, 3번째 인자 대로 비교하는 것이다. 
+
+
+
