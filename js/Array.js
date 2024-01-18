@@ -48,9 +48,9 @@ export default function array() {
   //console.log(indexOf); // 0
 
   const zipped = _.zip([1, 2, 1], [10, 20, 10], [100, 200, 100]);
-  console.log(zipped);
+  //console.log(zipped);
 
-  console.log(_.unzipWith(zipped));
+  //console.log(_.unzipWith(zipped));
 
   const without1 = _.without([2, 1, 2, 3], 1, 2);
 
