@@ -16,3 +16,5 @@ export default function Collection() {
     _.invokeMap([123, 456], String.prototype.split, '');
 // => [['1', '2', '3'], ['4', '5', '6']]
 }
+
+
